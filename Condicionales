@@ -1,0 +1,21 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+estado = "desempleado", "empleado", "independiente"
+empleo = input("Inserte su estado de empleado ")
+
+credito_1 = "negado"
+credito_2 = "aprobado"
+
+if empleo == "desempleado": 
+    print(credito_1)
+
+else:
+    ingreso = int(input("Inserte su ingreso "))
+    if empleo == "independiente" and ingreso >= 4000000:
+        print(credito_2)
+        
+    elif empleo == "empleado" and ingreso >= 3500000:
+        print(credito_2)
+    else:
+        print(credito_1)
