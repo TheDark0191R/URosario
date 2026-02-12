@@ -1,0 +1,36 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+# Variables 
+print("Bienvenidos a Aerolíneas Nueva Scadta")
+distancia = float(input("Ingrese la distancia de su vuelo en km: "))
+estatus = int(input("Ingrese su estatus: 0: no tiene, 1: Bronce, 2: Plata, 3: Oro "))
+puntos_acumulados = 0
+
+# Calculo de tiquete con y sin estatus
+
+if estatus == 1:
+    precio = 9000
+    puntos = 1
+        
+elif estatus == 2:
+    precio = 7500
+    puntos = 2
+    
+elif estatus == 3:
+    precio = 6000
+    puntos = 3
+
+else: 
+    precio = 10000
+    puntos = 1
+
+# Calculo valor_base con y sin impuestos
+valor_base = distancia * precio
+valor_impuestos = valor_base * 1.25
+
+# Calculo de puntos
+puntos_actuales = 0
+pago_puntos = no
+if estatus == 0
+    
+    
